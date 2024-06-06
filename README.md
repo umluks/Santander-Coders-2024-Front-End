@@ -9,5 +9,3 @@ https://comunidade.ada.tech/programas/santander-coders-2024/andamento/9d52ea80-6
 ```
 git glone https://github.com/umluks/Santander-Coders-2024-Front-End.git
 ```
-
-testando restore
