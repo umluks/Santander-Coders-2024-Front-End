@@ -1,0 +1,56 @@
+:root {
+  --bs-link-color: rgb(21, 31, 48) !important;
+  margin: 0 auto;
+  padding: 0;
+}
+
+section {
+  scroll-margin-top: 6rem;
+}
+
+main {
+  margin: 5rem 0 0 0;
+}
+
+.navbar-brand img {
+  width: 60px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.carousel-item::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+  position: absolute;
+}
+
+blockquote hr {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: var(--bs-link-color) !important;
+}
+
+.card img {
+  height: 300px;
+  object-fit: cover;
+}
+
+#local {
+  padding: 5rem 5rem;
+}
+
+#rodape {
+  padding: 50px 50px;
+}
