@@ -1,7 +1,10 @@
-:root {
-  --bs-link-color: rgb(21, 31, 48) !important;
-  margin: 0 auto;
+* {
+  margin: 0;
   padding: 0;
+}
+:root {
+  --font-family: 'Roboto', arial, cursive;
+  --bs-link-color: rgb(21, 31, 48);
 }
 
 section {
@@ -43,12 +46,12 @@ blockquote hr {
 }
 
 .card img {
-  height: 300px;
+  height: 30vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
-
+}
 
 #local {
   padding: 5rem 5rem;
