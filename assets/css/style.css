@@ -44,8 +44,11 @@ blockquote hr {
 
 .card img {
   height: 300px;
-  object-fit: cover;
-}
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+
 
 #local {
   padding: 5rem 5rem;
@@ -53,4 +56,13 @@ blockquote hr {
 
 #rodape {
   padding: 50px 50px;
+}
+
+@media (max-width: 360px){
+  .carousel-indicators {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 720px) {
 }
