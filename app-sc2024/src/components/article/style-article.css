@@ -1,0 +1,34 @@
+article .article-info {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+ 
+article .article-info img {
+   box-shadow: 4px 4px 10px var(--gray100);
+   border-radius: 10px; 
+   max-width: 250px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+article .article-text {
+    text-align: justify;
+}
+
+article .article-text h3 {
+    padding: 0.8rem 0;
+    color: var(--gray100);
+    font-weight: 500;
+}
+
+article .article-text .article-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--purple);
+}
+
+article .article-text p {
+    line-height: 1.4rem;
+}
